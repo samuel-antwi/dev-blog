@@ -8,7 +8,17 @@ module.exports = {
     "app.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "light-primary": "#C5E2F4",
+        "dark-primary": "#0E141B",
+        "text-primary": "#5773ff",
+        "text-secondary": "#ff0876",
+      },
+      fontFamily: {
+        sans: ["Wotfard", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }

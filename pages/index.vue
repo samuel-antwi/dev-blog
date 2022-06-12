@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
-    <h1 class="text-red-400">Hello world</h1>
+  <div class="min-h-screen">
+    <div class="container-md">
+      <h1>Welcome home</h1>
+    </div>
   </div>
 </template>

@@ -9,7 +9,11 @@ export default defineNuxtConfig({
     // https://content.nuxtjs.org/api/configuration
   },
 
-  css: ["~/assets/css/tailwind.css"],
+  css: [
+    "@/assets/css/main.css",
+    "@/assets/css/tailwind.css",
+    "@/assets/css/fonts.css",
+  ],
   build: {
     postcss: {
       postcssOptions: require("./postcss.config.js"),

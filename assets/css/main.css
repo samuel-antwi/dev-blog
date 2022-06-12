@@ -1,0 +1,33 @@
+html {
+  @apply scroll-pt-16 scroll-smooth;
+}
+
+p {
+  @apply font-light text-lg;
+}
+
+.container-lg {
+  @apply mx-auto max-w-6xl;
+}
+.container-md {
+  @apply mx-auto max-w-5xl;
+}
+
+.page-enter-active {
+  @apply transition duration-300 ease-out;
+}
+.page-enter-from {
+  @apply opacity-0;
+}
+.page-enter-to {
+  @apply opacity-100;
+}
+.page-leave-active {
+  @apply transition duration-300 ease-in;
+}
+.page-leave-from {
+  @apply opacity-100;
+}
+.page-leave-to {
+  @apply opacity-0;
+}
